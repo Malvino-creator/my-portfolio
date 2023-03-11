@@ -3,16 +3,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
+import logo from "../src/Components/logo.png";
 // import Home from "../src/Components/Home"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />    */}
+        <img src={logo} className="App-logo" alt="logo" />   
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -20,8 +20,7 @@ function App() {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#techstars">TechStars</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contacts">Contacts</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Contacts" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Github</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Twitter
