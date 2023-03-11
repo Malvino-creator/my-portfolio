@@ -12,5 +12,11 @@
 }
 .home{
   text-align: center;
-  padding: 5%;
+  padding: 3%;
+}
+.bg{
+  height: 400px ;
+  width: 1200px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
