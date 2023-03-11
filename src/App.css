@@ -1,14 +1,13 @@
 .App {
   display:flexbox;
-  background-image: none;
+
 }
 
 .App-logo{
-  height: 80px;
-  width: 110px;
+  height: 100px;
+  width: 200px;
   margin-right: 400px;
-  margin-left: 100px;
+  margin-left: 200px;
   justify-content: space-around;
-  
 }
 

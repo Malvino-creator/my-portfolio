@@ -4,7 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import logo from "../src/Components/logo.n.svg";
-// import Home from "../src/Components/Home"
+import Home from "../src/Components/Home";
+
+
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#techstars">TechStars</Nav.Link>
+            <Nav.Link href="#techstack">Tech Stack</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <NavDropdown title="Contacts" id="basic-nav-dropdown">
               <NavDropdown.Item href="#github">Github</NavDropdown.Item>
@@ -25,13 +27,12 @@ function App() {
                 Twitter
               </NavDropdown.Item>
               <NavDropdown.Item href="#linkedin">Linkedin</NavDropdown.Item>
-              <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-      {/* <Home /> */}
+    < Home />
     </div>
   );
 }
