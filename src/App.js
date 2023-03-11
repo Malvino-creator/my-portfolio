@@ -3,15 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
-import logo from "../src/Components/logo.png";
+import logo from "../src/Components/logo.n.svg";
 // import Home from "../src/Components/Home"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />   
+    <div className="App">   
     <Navbar bg="light" expand="lg">
+    <img src={logo} alt="logo" className='App-logo'/>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -21,18 +20,17 @@ function App() {
             <Nav.Link href="#techstars">TechStars</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <NavDropdown title="Contacts" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Github</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="#github">Github</NavDropdown.Item>
+              <NavDropdown.Item href="#twitter">
                 Twitter
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Linkedin</NavDropdown.Item>
+              <NavDropdown.Item href="#linkedin">Linkedin</NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-      </header>
       {/* <Home /> */}
     </div>
   );
