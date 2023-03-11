@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import logo from "../src/Components/logo.n.svg";
 import Home from "../src/Components/Home";
+import { CDBFooter } from 'cdbreact';
 
 
 
@@ -33,6 +34,7 @@ function App() {
       </Container>
     </Navbar>
     < Home />
+    
     </div>
   );
 }

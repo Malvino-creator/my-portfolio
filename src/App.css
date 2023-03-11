@@ -2,6 +2,9 @@
   display:flexbox;
 
 }
+.footer{
+  text-align: center;
+}
 
 .App-logo{
   height: 100px;
