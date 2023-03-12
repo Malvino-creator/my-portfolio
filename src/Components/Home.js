@@ -7,12 +7,14 @@ import emoji from "../emoji.png";
 function Home() {
   return (
     <div className="home">
+      <div className='left'>
       <h1>Hi
          <img src={emoji} alt="emoji" className='emoji'/>
          <br></br>
         I'm Malvin Opondo,<br></br>A FullStack Developer..</h1>
       <p> I build amazing stuff for the web!</p>
-      <div>
+      </div>
+      <div className='right'>
       <img src={background} alt='background' className='bg'/>
       </div>
     </div>
