@@ -35,8 +35,14 @@
   background: black;
   padding-bottom: 0%;
   text-decoration: white;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 60%;
-  
+}
+.emoji{
+  height: 140px ;
+  width: 80px;
+  position: absolute;
+  top: 94px;
+  right: 560px;
   
 }
