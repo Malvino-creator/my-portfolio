@@ -15,18 +15,28 @@
 }
 .home{
   text-align: center;
-  padding: 3%;
+  padding-top: 4%;
+ 
 }
 .bg{
-  height: 400px ;
-  width: 1200px;
-  padding-right: 10%;
-  padding-left: 10%;
+  height: 700px ;
+  width: 1400px;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  position: absolute;
+  left: -15%; 
+  padding-top: 6%;
+  
 }
+
 .footer{
   text-align: center;
-  min-height: 30px;
-  padding-bottom: 20px;
-  background: #999;
+  min-height: 10px;
+  background: black;
+  padding-bottom: 0%;
+  text-decoration: white;
+  font-weight: 800;
+  margin-top: 60%;
+  
   
 }
