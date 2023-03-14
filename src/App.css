@@ -1,35 +1,33 @@
 .App {
   display:flexbox;
-
+  
 }
 .footer{
   text-align: center;
 }
 
 .App-logo{
-  height: 100px;
+  height: 90px;
   width: 200px;
-  margin-right: 400px;
-  margin-left: 200px;
+  margin-right: 300px;
+  margin-left: 100px;
   justify-content: space-around;
 }
 .home{
   text-align: center;
-  padding-top: 4%;
+  padding: -400px;
   display: inline-block;
-  vertical-align: middle;
   width: 50%;
+  color: black;
+  
  
 }
 .bg{
-  height: 700px ;
-  width: 1400px;
+  height: 100% ;
+  width: 100px;
   background-repeat: no-repeat;
-  background-size: 300px 100px;
-  position: absolute;
-  left: -15%; 
-  padding-top: 6%;
-  
+  background-size: cover;
+  background-position: center;
 }
 
 .footer{
@@ -45,10 +43,12 @@
   height: 140px ;
   width: 80px;
   position: absolute;
-  top: 94px;
+  top: 299px;
   right: 560px;
-  
+
 }
-.left, .right{
-  width: 70%;
+.left{
+  width: 200%;
+  height: 100%;
+  padding: 25px;
 }

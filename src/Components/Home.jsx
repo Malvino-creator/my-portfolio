@@ -1,5 +1,5 @@
 import React from 'react';
-import background from "../backgroundi.svg";
+import bg from "../bg.webp";
 import emoji from "../emoji.png";
 
 
@@ -11,11 +11,9 @@ function Home() {
       <h1>Hi
          <img src={emoji} alt="emoji" className='emoji'/>
          <br></br>
-        I'm Malvin Opondo,<br></br>A FullStack Developer..</h1>
+        I'm Malvin Opondo,<br></br>A FullStack Web Developer..</h1>
       <p> I build amazing stuff for the web!</p>
-      </div>
-      <div className='right'>
-      <img src={background} alt='background' className='bg'/>
+      <img src={bg} alt={bg} />
       </div>
     </div>
     
