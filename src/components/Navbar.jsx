@@ -24,8 +24,8 @@ function Navbar() {
         </ul>
 
         {/* Hamburger */}
-        <div onClick={handleClick} className="md:hidden z-10">
-          <FaBars />
+        <div onClick={handleClick} className="md:hidden z-15">
+          {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/* Mobile menu */}

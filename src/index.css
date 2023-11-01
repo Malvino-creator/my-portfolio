@@ -9,7 +9,7 @@
         @apply font-[Raleway];
     }
     li {
-        @apply px-8;
+        @apply px-12;
         @apply cursor-pointer
     }
 }
