@@ -1,8 +1,11 @@
 import React from 'react'
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='bg-[#0a192f]'>
+
+    </div>
   )
 }
 
