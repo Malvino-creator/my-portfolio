@@ -1,5 +1,6 @@
 import workImage from "../assets/workImage.jpg"
 import realestate from '../assets/realestate.jpg'
+import portfolio from '../assets/portfolio.png'
 
 export const data=[
     {
@@ -25,25 +26,25 @@ export const data=[
     },
     {
         id:4,
-        name:"React JS Application",
-        image:realestate,
-        github:"",
+        name:"My portfolio",
+        image:portfolio,
+        github:"https://my-portfolio-malvins-projects.vercel.app/",
         live:"",
     },
-    {
-        id:5,
-        name:"React JS Application",
-        image:workImage,
-        github:"",
-        live:"",
-    },
-    {
-        id:6,
-        name:"React JS Application",
-        image:realestate,
-        github:"",
-        live:"",
-    },
+    // {
+    //     id:5,
+    //     name:"React JS Application",
+    //     image:workImage,
+    //     github:"",
+    //     live:"",
+    // },
+    // {
+    //     id:6,
+    //     name:"React JS Application",
+    //     image:realestate,
+    //     github:"",
+    //     live:"",
+    // },
 
 
 ]
