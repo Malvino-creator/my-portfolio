@@ -8,14 +8,14 @@ export const data=[
         name:"React JS Application",
         image:workImage,
         github:"",
-        live:"",
+        live:"https://finance-data-lime.vercel.app/",
     },
     {
         id:2,
         name:"React JS Application",
         image:realestate,
-        github:"",
-        live:"",
+        github:"https://github.com/Malvino-creator/dashboard",
+        live:"https://64591b7e5057e604db31bbf4--dancing-conkies-9a00b0.netlify.app/",
     },
     {
         id:3,
@@ -28,8 +28,8 @@ export const data=[
         id:4,
         name:"My portfolio",
         image:portfolio,
-        github:"https://my-portfolio-malvins-projects.vercel.app/",
-        live:"",
+        github:"https://github.com/Malvino-creator/my-portfolio",
+        live:"https://my-portfolio-malvins-projects.vercel.app/",
     },
     // {
     //     id:5,
