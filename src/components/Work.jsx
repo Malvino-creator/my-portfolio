@@ -52,6 +52,11 @@ const Work = () => {
           >
             Live
           </button>
+          <p>
+            <h3 className='text-white'>This is a Reactjs data website.
+              Our main goal is understanding styling using Tailwind CSS.
+              </h3>
+          </p>
         </a>
       </div>
     </div>

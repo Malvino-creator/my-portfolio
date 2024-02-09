@@ -1,4 +1,4 @@
-import workImage from '../assets/workImg.jpeg'
+import workImage from "../assets/workImage.jpg"
 import realestate from '../assets/realestate.jpg'
 
 export const data=[
