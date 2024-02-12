@@ -17,13 +17,13 @@ export const data=[
         github:"https://github.com/Malvino-creator/dashboard",
         live:"https://64591b7e5057e604db31bbf4--dancing-conkies-9a00b0.netlify.app/",
     },
-    {
-        id:3,
-        name:"React JS Application",
-        image:workImage,
-        github:"",
-        live:"",
-    },
+    // {
+    //     id:3,
+    //     name:"React JS Application",
+    //     image:workImage,
+    //     github:"",
+    //     live:"",
+    // },
     {
         id:4,
         name:"My portfolio",
